@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(140, 211, 130, 0.993);
+    padding: 0%;
+    padding: 0%;
+
+}
+
+
+.Name{ font-size: 300%;
+    text-align:right ;
+    font-style: oblique;
+    padding-right: 200px;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: px;
+    padding: 0px;
+    width: 100px;
+    height:100px ;
+    border-radius: 10%;
+    position:relative;
+    bottom:170px;
+    left:1620px;
+
+
+}
