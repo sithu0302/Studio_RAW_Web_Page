@@ -11,34 +11,50 @@ body{
     margin-left: 400px;
     font-style: oblique;
     padding-right: 200px;
+   position: relative; 
+    bottom: 200px;
+    left:120px;
 }
 
 .img{
     border: 1px solid #ddd;
     border-radius: px;
     padding: 0px;
-    width: 100px;
-    height:100px ;
-    border-radius: 10%;
+    width: 200px;
+    height:200px ;
+    border-radius: 100%;
     position:relative;
-    bottom:170px;
-    left:1420px;
+    bottom:420px;
+    left:200px;
 }
 
 .cover-box {
-        width: 100vw; /* Full screen width */
-        height: 50vh;  /* Half screen height */
+
+        width: 1800px; /* Full screen width */
+        height: 300px;  /* Half screen height */
         overflow: hidden;
         position: relative;
-        background-color: #e0e0e0; /* optional background */
-    }
+        background-color: #bcc1c2f8; /* optional background */
+        }
     
-/*.cover-image {
-        width: 75%;
+/*cover-image {
+        width: 100%;
         height: 100%;
         object-fit: cover; /* Crop nicely while filling box *
-        
        margin-top: 10;
-       margin-left: 60;
-    }*/
+       margin-left: 60;*/
     
+li{
+    display: inline;
+    position: relative;
+    bottom: 430px;
+     left: 800px; 
+     font-size:50px ;
+     padding: 20px;
+
+}
+a{
+    color: rgb(0, 119, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
