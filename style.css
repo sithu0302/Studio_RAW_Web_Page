@@ -7,12 +7,13 @@ body{
 
 
 .Name{ font-size: 300%;
-    text-align:right ;
+    margin-top: -80px;
+    margin-left: 400px;
     font-style: oblique;
     padding-right: 200px;
 }
 
-img{
+.img{
     border: 1px solid #ddd;
     border-radius: px;
     padding: 0px;
@@ -21,7 +22,23 @@ img{
     border-radius: 10%;
     position:relative;
     bottom:170px;
-    left:1620px;
-
-
+    left:1420px;
 }
+
+.cover-box {
+        width: 100vw; /* Full screen width */
+        height: 50vh;  /* Half screen height */
+        overflow: hidden;
+        position: relative;
+        background-color: #e0e0e0; /* optional background */
+    }
+    
+/*.cover-image {
+        width: 75%;
+        height: 100%;
+        object-fit: cover; /* Crop nicely while filling box *
+        
+       margin-top: 10;
+       margin-left: 60;
+    }*/
+    
