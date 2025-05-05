@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(140, 211, 130, 0.993);
+    background-color: rgba(37, 7, 37, 0.993);
     padding: 0%;
     padding: 0%;
 
@@ -14,11 +14,11 @@ body{
    position: relative; 
     bottom: 200px;
     left:120px;
+    font-family: cursive;
 }
 
 .img{
-    border: 1px solid #ddd;
-    border-radius: px;
+    border: 5px solid #ddd;
     padding: 0px;
     width: 200px;
     height:200px ;
@@ -29,14 +29,13 @@ body{
 }
 
 .cover-box {
+    width: 750vw; /* Full screen width */
+    height: 35vh; /* Half of the screen height */
+    overflow: hidden;
+    position: relative;
+    background-color: #18535ff8; /* optional background */
+}
 
-        width: 1800px; /* Full screen width */
-        height: 300px;  /* Half screen height */
-        overflow: hidden;
-        position: relative;
-        background-color: #bcc1c2f8; /* optional background */
-        }
-    
 /*cover-image {
         width: 100%;
         height: 100%;
@@ -47,14 +46,13 @@ body{
 li{
     display: inline;
     position: relative;
-    bottom: 430px;
-     left: 800px; 
-     font-size:50px ;
+    bottom: 450px;
+     left: 600px; 
+     font-size:30px ;
      padding: 20px;
 
 }
 a{
-    color: rgb(0, 119, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    color: white;
+    font-family:cursive ; 
 }
