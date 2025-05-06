@@ -1,7 +1,9 @@
 body{
     background-color: rgba(37, 7, 37, 0.993);
+    background:linear-gradient(#330133f8);
     padding: 0%;
     padding: 0%;
+    background-size: 100px;
 
 }
 
@@ -29,7 +31,7 @@ body{
 }
 
 .cover-box {
-    width: 750vw; /* Full screen width */
+    width: 99vw; /* Full screen width */
     height: 35vh; /* Half of the screen height */
     overflow: hidden;
     position: relative;
